@@ -1,1 +1,71 @@
-//
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+// VARIABLES
+$black: #1C1C1C;
+$darkGrey: #303030;
+$grey: #464646;
+$lightGrey: #797979;
+$lightBlue: #0082F9;
+
+// COMMONS
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.width-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+// HEADER
+header {
+  background-color: white;
+
+  div.space-between {
+    height: 7rem;
+
+    img {
+      height: 5rem;
+    }
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      padding: 0 1rem;
+
+      a {
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        color: $grey;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: calc((7rem - 2rem) / 2) 0;
+        border-top: 5px solid white;
+        border-bottom: 5px solid white;
+        transition : border 500ms;
+
+        &:hover {
+          color: $lightBlue;
+          border-bottom: 5px solid $lightBlue;
+        }
+      }
+    }
+  }
+}
