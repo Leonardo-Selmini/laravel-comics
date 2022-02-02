@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;
-
-400;700&display=swap);* {
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap);* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -26,23 +24,18 @@
 header {
   background-color: white;
 }
-
 header div.space-between {
   height: 7rem;
 }
-
 header div.space-between img {
   height: 5rem;
 }
-
 header ul {
   list-style: none;
 }
-
 header ul li {
   padding: 0 1rem;
 }
-
 header ul li a {
   font-family: "Arial Narrow", Arial, sans-serif;
   font-weight: bolder;
@@ -54,7 +47,6 @@ header ul li a {
   border-bottom: 5px solid white;
   transition: border 500ms;
 }
-
 header ul li a:hover {
   color: #0082F9;
   border-bottom: 5px solid #0082F9;
@@ -63,20 +55,16 @@ header ul li a:hover {
 main {
   background-color: #1C1C1C;
 }
-
 main #jumbo {
   height: 20rem;
   overflow: hidden;
 }
-
 main #jumbo img {
   width: 100%;
 }
-
 main #series {
   position: relative;
 }
-
 main #series .cs-container {
   position: absolute;
   left: 2rem;
@@ -86,16 +74,13 @@ main #series .cs-container {
   color: white;
   padding: 0.6rem 1rem;
 }
-
 main #series div.flex {
   display: flex;
   overflow-x: scroll;
 }
-
 main #series div.flex .card {
   padding: 3rem 1rem;
 }
-
 main #series div.flex .card h4 {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -104,3 +89,70 @@ main #series div.flex .card h4 {
   margin-top: 0.5rem;
 }
 
+footer #store {
+  height: 8rem;
+  background-color: #0082F9;
+  color: white;
+}
+footer #store div:nth-of-type(4) img {
+  width: 2rem;
+}
+footer #store div img {
+  width: 3rem;
+  margin-right: 0.5rem;
+}
+footer #store div span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+footer #links {
+  position: relative;
+  font-size: 0.8rem;
+  background-image: url("./../img/footer-bg.jpg");
+  background-size: cover;
+  color: #797979;
+  overflow-y: hidden;
+}
+footer #links .flex {
+  display: flex;
+}
+footer #links .flex .column {
+  padding: 2rem 1.6rem;
+}
+footer #links .flex .column ul li {
+  line-height: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+footer #links .flex .column ul li h2 {
+  text-transform: uppercase;
+  color: white;
+  padding: 1rem 0 0.4rem;
+}
+footer #links img {
+  position: absolute;
+  right: 5rem;
+  top: -6rem;
+}
+footer #social {
+  background-color: #303030;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+footer #social div.space-between {
+  height: 7rem;
+}
+footer #social div.space-between a {
+  text-decoration: none;
+  color: white;
+  padding: 0.6rem 1rem;
+  border: 2px solid #0082F9;
+}
+footer #social div.space-between div span {
+  text-transform: uppercase;
+  color: #0082F9;
+  margin-right: 0.6rem;
+}
+footer #social div.space-between div img {
+  margin: 0 0.4rem;
+}

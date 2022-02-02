@@ -114,3 +114,89 @@ main {
     }
   }
 }
+
+// FOOTER
+footer {
+
+  #store {
+    height: 8rem;
+    background-color: $lightBlue;
+    color: white;
+    
+    div:nth-of-type(4) img {
+      width: 2rem;
+    }
+
+    div img {
+      width: 3rem;
+      margin-right: .5rem;
+    }
+
+    div span {
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size: .8rem;
+      text-transform: uppercase;
+    }
+  }
+
+  #links {
+    position: relative;
+    font-size: .8rem;
+    background-image: url("./../img/footer-bg.jpg");
+    background-size: cover;
+    color: $lightGrey;
+    overflow-y: hidden;
+
+    .flex {
+      display: flex;
+      
+      .column {
+        padding: 2rem 1.6rem;
+
+        ul li {
+          line-height: 1.6rem;
+          font-family: Arial, Helvetica, sans-serif;
+          list-style: none;
+
+          h2 {
+            text-transform: uppercase;
+            color: white;
+            padding: 1rem 0 .4rem;
+          }
+        }
+      }
+    }
+
+    img{
+      position: absolute;
+      right: 5rem;
+      top: -6rem;
+    }
+  }
+
+  #social {
+    background-color: $darkGrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+    div.space-between {
+      height: 7rem;
+  
+      a {
+        text-decoration: none;
+        color: white;
+        padding: .6rem 1rem;
+        border: 2px solid $lightBlue;
+      }
+  
+      div span {
+        text-transform: uppercase;
+        color: $lightBlue;
+        margin-right: .6rem;
+      }
+  
+      div img {
+        margin: 0 .4rem;
+      }
+    }
+  }
+}
